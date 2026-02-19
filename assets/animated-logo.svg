@@ -1,0 +1,49 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="220" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4202F" />
+      <stop offset="1" stop-color="#FF8C22" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="28" fill="#0C0C0F" />
+  <g>
+    <circle cx="110" cy="110" r="76" stroke="url(#ring)" stroke-width="8" fill="none">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 110 110"
+        to="360 110 110"
+        dur="6s"
+        repeatCount="indefinite"
+      />
+    </circle>
+    <circle cx="110" cy="110" r="48" fill="#1B1B21" />
+  </g>
+  <g>
+    <rect x="68" y="98" width="84" height="26" rx="13" fill="#FF8C22">
+      <animate
+        attributeName="fill"
+        values="#FF8C22;#E4202F;#FF8C22"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <rect x="80" y="84" width="60" height="18" rx="9" fill="#FFB24F" />
+    <circle cx="84" cy="126" r="10" fill="#0C0C0F" stroke="#FF8C22" stroke-width="3" />
+    <circle cx="136" cy="126" r="10" fill="#0C0C0F" stroke="#FF8C22" stroke-width="3" />
+  </g>
+  <g>
+    <path
+      d="M142 58L158 74L150 82L172 104L164 112L142 90L134 98L118 82L142 58Z"
+      fill="#E4202F"
+    >
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 2 -2; 0 0"
+        dur="2s"
+        repeatCount="indefinite"
+      />
+    </path>
+  </g>
+</svg>
