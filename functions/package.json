@@ -1,0 +1,23 @@
+{
+  "name": "mechiebro-functions",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .js,.ts src",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.3.1",
+    "firebase-functions": "^5.1.1",
+    "geofire-common": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.4",
+    "eslint": "^8.57.0"
+  }
+}
